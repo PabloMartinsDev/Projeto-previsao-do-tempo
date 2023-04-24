@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+body {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   width: 100vw;
+    background-image: url(https://images.hdqwalls.com/download/northern-lights-aurora-borealis-4k-fz-1600x900.jpg);}
+
+
+.caixa-grande {
+    background-color: #000000;
+    width: 95%;
+    max-width: 420px;
+    opacity: 0.8;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+input{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 24px;
+    font-size: 20px;
+    background-color: #7c7c7c2b;
+    color: whitesmoke;
+    width: calc(100% - 100px);
+}
+
+button{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color:#7c7c7c2b;
+    float: right;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #7c7c7c6b;
+}
+
+.lupa{
+    height: 20px;
+}
+
+.caixa-media{
+    margin-top: 30px;
+}
+
+
+h2{
+    color: white;
+    font-size: 28px;
+    display: flex;
+}
+
+.temp{
+    color: white;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.caixa-menor{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.desc{
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-left: 15px;
+}
+
+.umi{
+    color: white;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.temp-max{
+    color: white;
+    margin-top: 20px;
+}
+
+.temp-min{
+    color: white;
+    margin-bottom: 20px;
+}
